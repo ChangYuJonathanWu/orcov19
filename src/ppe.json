@@ -1,0 +1,8932 @@
+{
+  "objectIdFieldName": "objectid",
+  "uniqueIdField": {
+    "name": "objectid",
+    "isSystemMaintained": true
+  },
+  "globalIdFieldName": "globalid",
+  "geometryType": "esriGeometryPoint",
+  "spatialReference": {
+    "wkid": 4326,
+    "latestWkid": 4326
+  },
+  "fields": [
+    {
+      "name": "_date",
+      "type": "esriFieldTypeDate",
+      "alias": "Date",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "jurisdiction",
+      "type": "esriFieldTypeString",
+      "alias": "Jurisdiction",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_jurisdiction",
+        "codedValues": [
+          {
+            "name": "Baker",
+            "code": "baker"
+          },
+          {
+            "name": "Benton",
+            "code": "benton"
+          },
+          {
+            "name": "Clackamas",
+            "code": "clackamas"
+          },
+          {
+            "name": "Clatsop",
+            "code": "clatsop"
+          },
+          {
+            "name": "Columbia",
+            "code": "columbia"
+          },
+          {
+            "name": "Coos",
+            "code": "coos"
+          },
+          {
+            "name": "Crook",
+            "code": "crook"
+          },
+          {
+            "name": "Curry",
+            "code": "curry"
+          },
+          {
+            "name": "Deschutes",
+            "code": "deschutes"
+          },
+          {
+            "name": "Douglas",
+            "code": "douglas"
+          },
+          {
+            "name": "Gilliam",
+            "code": "gilliam"
+          },
+          {
+            "name": "Grant",
+            "code": "grant"
+          },
+          {
+            "name": "Harney",
+            "code": "harney"
+          },
+          {
+            "name": "Hood River",
+            "code": "hood_river"
+          },
+          {
+            "name": "Jackson",
+            "code": "jackson"
+          },
+          {
+            "name": "Jefferson",
+            "code": "jefferson"
+          },
+          {
+            "name": "Josephine",
+            "code": "josephine"
+          },
+          {
+            "name": "Klamath",
+            "code": "klamath"
+          },
+          {
+            "name": "Lake",
+            "code": "lake"
+          },
+          {
+            "name": "Lane",
+            "code": "lane"
+          },
+          {
+            "name": "Lincoln",
+            "code": "lincoln"
+          },
+          {
+            "name": "Linn",
+            "code": "linn"
+          },
+          {
+            "name": "Malheur",
+            "code": "malheur"
+          },
+          {
+            "name": "Marion",
+            "code": "marion"
+          },
+          {
+            "name": "Morrow",
+            "code": "morrow"
+          },
+          {
+            "name": "Multnomah",
+            "code": "multnomah"
+          },
+          {
+            "name": "Polk",
+            "code": "polk"
+          },
+          {
+            "name": "Sherman",
+            "code": "sherman"
+          },
+          {
+            "name": "Tillamook",
+            "code": "tillamook"
+          },
+          {
+            "name": "Umatilla",
+            "code": "umatilla"
+          },
+          {
+            "name": "Union",
+            "code": "union"
+          },
+          {
+            "name": "Wallowa",
+            "code": "wallowa"
+          },
+          {
+            "name": "Wasco",
+            "code": "wasco"
+          },
+          {
+            "name": "Washington",
+            "code": "washington"
+          },
+          {
+            "name": "Wheeler",
+            "code": "wheeler"
+          },
+          {
+            "name": "Yamhill",
+            "code": "yamhill"
+          },
+          {
+            "name": "Burns Paiute Tribe",
+            "code": "burns_paiute_tribe"
+          },
+          {
+            "name": "Conf Tribes of Coos Lower Umpqua and Siuslaw Indians",
+            "code": "conf_tribes_of_coos_lower_umpqu"
+          },
+          {
+            "name": "Conf Tribes of Grand Ronde Community of Oregon",
+            "code": "conf_tribes_of_grand_ronde_comm"
+          },
+          {
+            "name": "Conf Tribes of Siletz Indians",
+            "code": "conf_tribes_of_siletz_indians"
+          },
+          {
+            "name": "Confederated Tribes of Umatilla Indian Reservation",
+            "code": "confederated_tribes_of_umatilla"
+          },
+          {
+            "name": "Confederated Tribes Warm Springs",
+            "code": "confederated_tribes_warm_spring"
+          },
+          {
+            "name": "Coquille Indian Tribe",
+            "code": "coquille_indian_tribe"
+          },
+          {
+            "name": "Cow Creek Band of Umpqua Tribe of Indians",
+            "code": "cow_creek_band_of_umpqua_tribe_"
+          },
+          {
+            "name": "Klamath Tribes",
+            "code": "klamath_tribes"
+          },
+          {
+            "name": "Native American Rehabilitation Association",
+            "code": "native_american_rehabilitation_"
+          },
+          {
+            "name": "Chemawa Indian Health Clinic",
+            "code": "chemawa_indian_health_clinic"
+          },
+          {
+            "name": "Region 1 Hospital",
+            "code": "region_1_hospital"
+          },
+          {
+            "name": "State Hospital",
+            "code": "state_hospital"
+          },
+          {
+            "name": "Corrections",
+            "code": "corrections"
+          },
+          {
+            "name": "Fire/EMT",
+            "code": "fire_emt"
+          },
+          {
+            "name": "OHA",
+            "code": "oha"
+          },
+          {
+            "name": "Urgent Request",
+            "code": "urgent_request"
+          }
+        ]
+      },
+      "defaultValue": null
+    },
+    {
+      "name": "surgical_masks",
+      "type": "esriFieldTypeDouble",
+      "alias": "Surgical Masks",
+      "sqlType": "sqlTypeOther",
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "n95_masks",
+      "type": "esriFieldTypeDouble",
+      "alias": "N95 Masks",
+      "sqlType": "sqlTypeOther",
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "gowns",
+      "type": "esriFieldTypeDouble",
+      "alias": "Gowns",
+      "sqlType": "sqlTypeOther",
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "face_shields",
+      "type": "esriFieldTypeDouble",
+      "alias": "Face Shields",
+      "sqlType": "sqlTypeOther",
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "gloves",
+      "type": "esriFieldTypeDouble",
+      "alias": "Gloves",
+      "sqlType": "sqlTypeOther",
+      "domain": null,
+      "defaultValue": null
+    }
+  ],
+  "features": [
+    {
+      "attributes": {
+        "_date": 1585594800000,
+        "jurisdiction": "baker",
+        "surgical_masks": 150,
+        "n95_masks": 260,
+        "gowns": 0,
+        "face_shields": 24,
+        "gloves": 3200
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585594800000,
+        "jurisdiction": "benton",
+        "surgical_masks": 1000,
+        "n95_masks": 9160,
+        "gowns": 117,
+        "face_shields": 144,
+        "gloves": 27500
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585594800000,
+        "jurisdiction": "clackamas",
+        "surgical_masks": 2800,
+        "n95_masks": 10940,
+        "gowns": 1595,
+        "face_shields": 552,
+        "gloves": 54600
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585594800000,
+        "jurisdiction": "clatsop",
+        "surgical_masks": 1150,
+        "n95_masks": 13680,
+        "gowns": 2214,
+        "face_shields": 48,
+        "gloves": 6400
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585594800000,
+        "jurisdiction": "columbia",
+        "surgical_masks": 0,
+        "n95_masks": 1340,
+        "gowns": 260,
+        "face_shields": 24,
+        "gloves": 5200
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585594800000,
+        "jurisdiction": "coos",
+        "surgical_masks": 650,
+        "n95_masks": 6280,
+        "gowns": 9040,
+        "face_shields": 96,
+        "gloves": 18900
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585594800000,
+        "jurisdiction": "crook",
+        "surgical_masks": 250,
+        "n95_masks": 4520,
+        "gowns": 570,
+        "face_shields": 96,
+        "gloves": 19600
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585594800000,
+        "jurisdiction": "curry",
+        "surgical_masks": 250,
+        "n95_masks": 2240,
+        "gowns": 0,
+        "face_shields": 24,
+        "gloves": 6800
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585594800000,
+        "jurisdiction": "deschutes",
+        "surgical_masks": 350,
+        "n95_masks": 15540,
+        "gowns": 4885,
+        "face_shields": 312,
+        "gloves": 54700
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585594800000,
+        "jurisdiction": "douglas",
+        "surgical_masks": 1150,
+        "n95_masks": 0,
+        "gowns": 116,
+        "face_shields": 364,
+        "gloves": 20700
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585594800000,
+        "jurisdiction": "gilliam",
+        "surgical_masks": 50,
+        "n95_masks": 220,
+        "gowns": 48,
+        "face_shields": 0,
+        "gloves": 600
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585594800000,
+        "jurisdiction": "grant",
+        "surgical_masks": 100,
+        "n95_masks": 720,
+        "gowns": 30,
+        "face_shields": 0,
+        "gloves": 2300
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585594800000,
+        "jurisdiction": "harney",
+        "surgical_masks": 50,
+        "n95_masks": 740,
+        "gowns": 221,
+        "face_shields": 24,
+        "gloves": 2700
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585594800000,
+        "jurisdiction": "hood_river",
+        "surgical_masks": 300,
+        "n95_masks": 2500,
+        "gowns": 37,
+        "face_shields": 48,
+        "gloves": 7400
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585594800000,
+        "jurisdiction": "jackson",
+        "surgical_masks": 0,
+        "n95_masks": 23920,
+        "gowns": 395,
+        "face_shields": 312,
+        "gloves": 63800
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585594800000,
+        "jurisdiction": "jefferson",
+        "surgical_masks": 750,
+        "n95_masks": 6420,
+        "gowns": 169,
+        "face_shields": 144,
+        "gloves": 20100
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585594800000,
+        "jurisdiction": "josephine",
+        "surgical_masks": 950,
+        "n95_masks": 7460,
+        "gowns": 2110,
+        "face_shields": 2340,
+        "gloves": 24000
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585594800000,
+        "jurisdiction": "klamath",
+        "surgical_masks": 700,
+        "n95_masks": 6660,
+        "gowns": 131,
+        "face_shields": 144,
+        "gloves": 19700
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585594800000,
+        "jurisdiction": "lake",
+        "surgical_masks": 50,
+        "n95_masks": 820,
+        "gowns": 103,
+        "face_shields": 24,
+        "gloves": 2500
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585594800000,
+        "jurisdiction": "lane",
+        "surgical_masks": 4000,
+        "n95_masks": 30720,
+        "gowns": 322,
+        "face_shields": 0,
+        "gloves": 106800
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585594800000,
+        "jurisdiction": "lincoln",
+        "surgical_masks": 2750,
+        "n95_masks": 4900,
+        "gowns": 210,
+        "face_shields": 72,
+        "gloves": 22600
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585594800000,
+        "jurisdiction": "linn",
+        "surgical_masks": 1900,
+        "n95_masks": 17840,
+        "gowns": 20232,
+        "face_shields": 624,
+        "gloves": 36500
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585594800000,
+        "jurisdiction": "malheur",
+        "surgical_masks": 350,
+        "n95_masks": 3120,
+        "gowns": 48,
+        "face_shields": 24,
+        "gloves": 9300
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585594800000,
+        "jurisdiction": "marion",
+        "surgical_masks": 2850,
+        "n95_masks": 48860,
+        "gowns": 195,
+        "face_shields": 1640,
+        "gloves": 96100
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585594800000,
+        "jurisdiction": "morrow",
+        "surgical_masks": 150,
+        "n95_masks": 1260,
+        "gowns": 305,
+        "face_shields": 0,
+        "gloves": 3800
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585594800000,
+        "jurisdiction": "multnomah",
+        "surgical_masks": 20000,
+        "n95_masks": 143660,
+        "gowns": 6538,
+        "face_shields": 2256,
+        "gloves": 448800
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585594800000,
+        "jurisdiction": "polk",
+        "surgical_masks": 2500,
+        "n95_masks": 23660,
+        "gowns": 541,
+        "face_shields": 336,
+        "gloves": 102900
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585594800000,
+        "jurisdiction": "sherman",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 60,
+        "face_shields": 48,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585594800000,
+        "jurisdiction": "tillamook",
+        "surgical_masks": 600,
+        "n95_masks": 1700,
+        "gowns": 314,
+        "face_shields": 48,
+        "gloves": 5600
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585594800000,
+        "jurisdiction": "umatilla",
+        "surgical_masks": 850,
+        "n95_masks": 8840,
+        "gowns": 846,
+        "face_shields": 168,
+        "gloves": 23200
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585594800000,
+        "jurisdiction": "union",
+        "surgical_masks": 250,
+        "n95_masks": 1220,
+        "gowns": 38,
+        "face_shields": 0,
+        "gloves": 7700
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585594800000,
+        "jurisdiction": "wallowa",
+        "surgical_masks": 150,
+        "n95_masks": 620,
+        "gowns": 11,
+        "face_shields": 24,
+        "gloves": 2300
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585594800000,
+        "jurisdiction": "wasco",
+        "surgical_masks": 300,
+        "n95_masks": 2680,
+        "gowns": 31,
+        "face_shields": 48,
+        "gloves": 7800
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585594800000,
+        "jurisdiction": "washington",
+        "surgical_masks": 1950,
+        "n95_masks": 14980,
+        "gowns": 250,
+        "face_shields": 96,
+        "gloves": 58800
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585594800000,
+        "jurisdiction": "wheeler",
+        "surgical_masks": 50,
+        "n95_masks": 140,
+        "gowns": 45,
+        "face_shields": 0,
+        "gloves": 500
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585594800000,
+        "jurisdiction": "yamhill",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585854000000,
+        "jurisdiction": "baker",
+        "surgical_masks": 550,
+        "n95_masks": 390,
+        "gowns": 54,
+        "face_shields": 72,
+        "gloves": 200
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585854000000,
+        "jurisdiction": "benton",
+        "surgical_masks": 4050,
+        "n95_masks": 2700,
+        "gowns": 406,
+        "face_shields": 432,
+        "gloves": 2100
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585854000000,
+        "jurisdiction": "clackamas",
+        "surgical_masks": 6000,
+        "n95_masks": 4050,
+        "gowns": 607,
+        "face_shields": 648,
+        "gloves": 3300
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585854000000,
+        "jurisdiction": "clatsop",
+        "surgical_masks": 550,
+        "n95_masks": 360,
+        "gowns": 54,
+        "face_shields": 72,
+        "gloves": 300
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585854000000,
+        "jurisdiction": "columbia",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585854000000,
+        "jurisdiction": "coos",
+        "surgical_masks": 2050,
+        "n95_masks": 1380,
+        "gowns": 207,
+        "face_shields": 216,
+        "gloves": 1000
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585854000000,
+        "jurisdiction": "crook",
+        "surgical_masks": 750,
+        "n95_masks": 500,
+        "gowns": 77,
+        "face_shields": 96,
+        "gloves": 400
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585854000000,
+        "jurisdiction": "curry",
+        "surgical_masks": 750,
+        "n95_masks": 500,
+        "gowns": 75,
+        "face_shields": 2072,
+        "gloves": 400
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585854000000,
+        "jurisdiction": "deschutes",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585854000000,
+        "jurisdiction": "douglas",
+        "surgical_masks": 4500,
+        "n95_masks": 3040,
+        "gowns": 455,
+        "face_shields": 500,
+        "gloves": 2400
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585854000000,
+        "jurisdiction": "gilliam",
+        "surgical_masks": 50,
+        "n95_masks": 40,
+        "gowns": 6,
+        "face_shields": 20,
+        "gloves": 250
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585854000000,
+        "jurisdiction": "grant",
+        "surgical_masks": 350,
+        "n95_masks": 240,
+        "gowns": 35,
+        "face_shields": 24,
+        "gloves": 300
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585854000000,
+        "jurisdiction": "harney",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585854000000,
+        "jurisdiction": "hood_river",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585854000000,
+        "jurisdiction": "jackson",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585854000000,
+        "jurisdiction": "jefferson",
+        "surgical_masks": 800,
+        "n95_masks": 520,
+        "gowns": 78,
+        "face_shields": 1580,
+        "gloves": 350
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585854000000,
+        "jurisdiction": "josephine",
+        "surgical_masks": 3900,
+        "n95_masks": 1740,
+        "gowns": 393,
+        "face_shields": 420,
+        "gloves": 2000
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585854000000,
+        "jurisdiction": "klamath",
+        "surgical_masks": 2650,
+        "n95_masks": 1770,
+        "gowns": 267,
+        "face_shields": 280,
+        "gloves": 1400
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585854000000,
+        "jurisdiction": "lake",
+        "surgical_masks": 250,
+        "n95_masks": 180,
+        "gowns": 27,
+        "face_shields": 24,
+        "gloves": 300
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585854000000,
+        "jurisdiction": "lane",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585854000000,
+        "jurisdiction": "lincoln",
+        "surgical_masks": 1700,
+        "n95_masks": 1120,
+        "gowns": 168,
+        "face_shields": 180,
+        "gloves": 1000
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585854000000,
+        "jurisdiction": "linn",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585854000000,
+        "jurisdiction": "malheur",
+        "surgical_masks": 1050,
+        "n95_masks": 460,
+        "gowns": 105,
+        "face_shields": 120,
+        "gloves": 600
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585854000000,
+        "jurisdiction": "marion",
+        "surgical_masks": 24650,
+        "n95_masks": 16560,
+        "gowns": 2478,
+        "face_shields": 2688,
+        "gloves": 13100
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585854000000,
+        "jurisdiction": "morrow",
+        "surgical_masks": 550,
+        "n95_masks": 360,
+        "gowns": 52,
+        "face_shields": 48,
+        "gloves": 300
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585854000000,
+        "jurisdiction": "multnomah",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585854000000,
+        "jurisdiction": "polk",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585854000000,
+        "jurisdiction": "sherman",
+        "surgical_masks": 50,
+        "n95_masks": 40,
+        "gowns": 6,
+        "face_shields": 20,
+        "gloves": 300
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585854000000,
+        "jurisdiction": "tillamook",
+        "surgical_masks": 1200,
+        "n95_masks": 800,
+        "gowns": 120,
+        "face_shields": 120,
+        "gloves": 600
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585854000000,
+        "jurisdiction": "umatilla",
+        "surgical_masks": 3100,
+        "n95_masks": 2070,
+        "gowns": 309,
+        "face_shields": 336,
+        "gloves": 1700
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585854000000,
+        "jurisdiction": "union",
+        "surgical_masks": 1000,
+        "n95_masks": 660,
+        "gowns": 98,
+        "face_shields": 96,
+        "gloves": 500
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585854000000,
+        "jurisdiction": "wallowa",
+        "surgical_masks": 250,
+        "n95_masks": 160,
+        "gowns": 24,
+        "face_shields": 24,
+        "gloves": 300
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585854000000,
+        "jurisdiction": "wasco",
+        "surgical_masks": 1450,
+        "n95_masks": 960,
+        "gowns": 144,
+        "face_shields": 160,
+        "gloves": 600
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585854000000,
+        "jurisdiction": "washington",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585854000000,
+        "jurisdiction": "wheeler",
+        "surgical_masks": 50,
+        "n95_masks": 30,
+        "gowns": 5,
+        "face_shields": 20,
+        "gloves": 300
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585854000000,
+        "jurisdiction": "yamhill",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585940400000,
+        "jurisdiction": "baker",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585940400000,
+        "jurisdiction": "benton",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585940400000,
+        "jurisdiction": "clackamas",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585940400000,
+        "jurisdiction": "clatsop",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585940400000,
+        "jurisdiction": "columbia",
+        "surgical_masks": 600,
+        "n95_masks": 400,
+        "gowns": 61,
+        "face_shields": 72,
+        "gloves": 300
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585940400000,
+        "jurisdiction": "coos",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585940400000,
+        "jurisdiction": "crook",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585940400000,
+        "jurisdiction": "curry",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585940400000,
+        "jurisdiction": "deschutes",
+        "surgical_masks": 9000,
+        "n95_masks": 9030,
+        "gowns": 904,
+        "face_shields": 984,
+        "gloves": 4700
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585940400000,
+        "jurisdiction": "douglas",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585940400000,
+        "jurisdiction": "gilliam",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585940400000,
+        "jurisdiction": "grant",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585940400000,
+        "jurisdiction": "harney",
+        "surgical_masks": 250,
+        "n95_masks": 160,
+        "gowns": 24,
+        "face_shields": 24,
+        "gloves": 250
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585940400000,
+        "jurisdiction": "hood_river",
+        "surgical_masks": 1050,
+        "n95_masks": 700,
+        "gowns": 105,
+        "face_shields": 120,
+        "gloves": 600
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585940400000,
+        "jurisdiction": "jackson",
+        "surgical_masks": 9400,
+        "n95_masks": 4200,
+        "gowns": 942,
+        "face_shields": 1008,
+        "gloves": 5000
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585940400000,
+        "jurisdiction": "jefferson",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585940400000,
+        "jurisdiction": "josephine",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585940400000,
+        "jurisdiction": "klamath",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585940400000,
+        "jurisdiction": "lake",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585940400000,
+        "jurisdiction": "lane",
+        "surgical_masks": 13650,
+        "n95_masks": 9160,
+        "gowns": 1371,
+        "face_shields": 1488,
+        "gloves": 7300
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585940400000,
+        "jurisdiction": "lincoln",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585940400000,
+        "jurisdiction": "linn",
+        "surgical_masks": 8000,
+        "n95_masks": 5380,
+        "gowns": 806,
+        "face_shields": 864,
+        "gloves": 4300
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585940400000,
+        "jurisdiction": "malheur",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585940400000,
+        "jurisdiction": "marion",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585940400000,
+        "jurisdiction": "morrow",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585940400000,
+        "jurisdiction": "multnomah",
+        "surgical_masks": 12500,
+        "n95_masks": 8400,
+        "gowns": 1259,
+        "face_shields": 1360,
+        "gloves": 6700
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585940400000,
+        "jurisdiction": "polk",
+        "surgical_masks": 4350,
+        "n95_masks": 2910,
+        "gowns": 435,
+        "face_shields": 480,
+        "gloves": 2350
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585940400000,
+        "jurisdiction": "sherman",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585940400000,
+        "jurisdiction": "tillamook",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585940400000,
+        "jurisdiction": "umatilla",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585940400000,
+        "jurisdiction": "union",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585940400000,
+        "jurisdiction": "wallowa",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585940400000,
+        "jurisdiction": "wasco",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585940400000,
+        "jurisdiction": "washington",
+        "surgical_masks": 12700,
+        "n95_masks": 8520,
+        "gowns": 1278,
+        "face_shields": 1392,
+        "gloves": 6700
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585940400000,
+        "jurisdiction": "wheeler",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1585940400000,
+        "jurisdiction": "yamhill",
+        "surgical_masks": 1700,
+        "n95_masks": 1120,
+        "gowns": 168,
+        "face_shields": 180,
+        "gloves": 1000
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586026800000,
+        "jurisdiction": "baker",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586026800000,
+        "jurisdiction": "benton",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586026800000,
+        "jurisdiction": "clackamas",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586026800000,
+        "jurisdiction": "clatsop",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586026800000,
+        "jurisdiction": "columbia",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586026800000,
+        "jurisdiction": "coos",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586026800000,
+        "jurisdiction": "crook",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586026800000,
+        "jurisdiction": "curry",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586026800000,
+        "jurisdiction": "deschutes",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586026800000,
+        "jurisdiction": "douglas",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586026800000,
+        "jurisdiction": "gilliam",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586026800000,
+        "jurisdiction": "grant",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586026800000,
+        "jurisdiction": "harney",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586026800000,
+        "jurisdiction": "hood_river",
+        "surgical_masks": 800,
+        "n95_masks": 510,
+        "gowns": 14,
+        "face_shields": 0,
+        "gloves": 8600
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586026800000,
+        "jurisdiction": "jackson",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586026800000,
+        "jurisdiction": "jefferson",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586026800000,
+        "jurisdiction": "josephine",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586026800000,
+        "jurisdiction": "klamath",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586026800000,
+        "jurisdiction": "lake",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586026800000,
+        "jurisdiction": "lane",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586026800000,
+        "jurisdiction": "lincoln",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586026800000,
+        "jurisdiction": "linn",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586026800000,
+        "jurisdiction": "malheur",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586026800000,
+        "jurisdiction": "marion",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586026800000,
+        "jurisdiction": "morrow",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586026800000,
+        "jurisdiction": "multnomah",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586372400000,
+        "jurisdiction": "polk",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586026800000,
+        "jurisdiction": "sherman",
+        "surgical_masks": 50,
+        "n95_masks": 30,
+        "gowns": 1,
+        "face_shields": 0,
+        "gloves": 400
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586026800000,
+        "jurisdiction": "tillamook",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586026800000,
+        "jurisdiction": "umatilla",
+        "surgical_masks": 2250,
+        "n95_masks": 440,
+        "gowns": 40,
+        "face_shields": 0,
+        "gloves": 4200
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586026800000,
+        "jurisdiction": "union",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586026800000,
+        "jurisdiction": "wallowa",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586026800000,
+        "jurisdiction": "wasco",
+        "surgical_masks": 1050,
+        "n95_masks": 690,
+        "gowns": 19,
+        "face_shields": 0,
+        "gloves": 11600
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586026800000,
+        "jurisdiction": "washington",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586026800000,
+        "jurisdiction": "wheeler",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586026800000,
+        "jurisdiction": "yamhill",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586113200000,
+        "jurisdiction": "baker",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586113200000,
+        "jurisdiction": "benton",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586113200000,
+        "jurisdiction": "clackamas",
+        "surgical_masks": 12276,
+        "n95_masks": 1243,
+        "gowns": 920,
+        "face_shields": 619,
+        "gloves": 7098
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586113200000,
+        "jurisdiction": "clatsop",
+        "surgical_masks": 1001,
+        "n95_masks": 101,
+        "gowns": 76,
+        "face_shields": 50,
+        "gloves": 578
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586113200000,
+        "jurisdiction": "columbia",
+        "surgical_masks": 1184,
+        "n95_masks": 120,
+        "gowns": 89,
+        "face_shields": 60,
+        "gloves": 684
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586113200000,
+        "jurisdiction": "coos",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586113200000,
+        "jurisdiction": "crook",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586113200000,
+        "jurisdiction": "curry",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586113200000,
+        "jurisdiction": "deschutes",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586113200000,
+        "jurisdiction": "douglas",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586113200000,
+        "jurisdiction": "gilliam",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586113200000,
+        "jurisdiction": "grant",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586113200000,
+        "jurisdiction": "harney",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586113200000,
+        "jurisdiction": "hood_river",
+        "surgical_masks": 2113,
+        "n95_masks": 214,
+        "gowns": 87,
+        "face_shields": 107,
+        "gloves": 1222
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586113200000,
+        "jurisdiction": "jackson",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586113200000,
+        "jurisdiction": "jefferson",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586113200000,
+        "jurisdiction": "josephine",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586113200000,
+        "jurisdiction": "klamath",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586113200000,
+        "jurisdiction": "lake",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586113200000,
+        "jurisdiction": "lane",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586113200000,
+        "jurisdiction": "lincoln",
+        "surgical_masks": 3737,
+        "n95_masks": 378,
+        "gowns": 154,
+        "face_shields": 188,
+        "gloves": 2161
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586113200000,
+        "jurisdiction": "linn",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586113200000,
+        "jurisdiction": "malheur",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586113200000,
+        "jurisdiction": "marion",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586113200000,
+        "jurisdiction": "morrow",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586113200000,
+        "jurisdiction": "multnomah",
+        "surgical_masks": 26004,
+        "n95_masks": 2632,
+        "gowns": 1951,
+        "face_shields": 1311,
+        "gloves": 15034
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586113200000,
+        "jurisdiction": "polk",
+        "surgical_masks": 8173,
+        "n95_masks": 827,
+        "gowns": 337,
+        "face_shields": 412,
+        "gloves": 4725
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586113200000,
+        "jurisdiction": "sherman",
+        "surgical_masks": 114,
+        "n95_masks": 12,
+        "gowns": 5,
+        "face_shields": 6,
+        "gloves": 66
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586113200000,
+        "jurisdiction": "tillamook",
+        "surgical_masks": 2179,
+        "n95_masks": 221,
+        "gowns": 90,
+        "face_shields": 110,
+        "gloves": 1260
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586113200000,
+        "jurisdiction": "umatilla",
+        "surgical_masks": 6014,
+        "n95_masks": 609,
+        "gowns": 247,
+        "face_shields": 303,
+        "gloves": 3477
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586113200000,
+        "jurisdiction": "union",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586113200000,
+        "jurisdiction": "wallowa",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586113200000,
+        "jurisdiction": "wasco",
+        "surgical_masks": 2855,
+        "n95_masks": 289,
+        "gowns": 117,
+        "face_shields": 144,
+        "gloves": 1651
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586113200000,
+        "jurisdiction": "washington",
+        "surgical_masks": 24208,
+        "n95_masks": 2451,
+        "gowns": 1816,
+        "face_shields": 1221,
+        "gloves": 13995
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586113200000,
+        "jurisdiction": "wheeler",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586113200000,
+        "jurisdiction": "yamhill",
+        "surgical_masks": 3260,
+        "n95_masks": 330,
+        "gowns": 244,
+        "face_shields": 164,
+        "gloves": 1886
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586199600000,
+        "jurisdiction": "baker",
+        "surgical_masks": 263,
+        "n95_masks": 13,
+        "gowns": 12,
+        "face_shields": 23,
+        "gloves": 9
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586199600000,
+        "jurisdiction": "benton",
+        "surgical_masks": 2077,
+        "n95_masks": 102,
+        "gowns": 94,
+        "face_shields": 183,
+        "gloves": 76
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586199600000,
+        "jurisdiction": "clackamas",
+        "surgical_masks": 3027,
+        "n95_masks": 149,
+        "gowns": 241,
+        "face_shields": 267,
+        "gloves": 111
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586199600000,
+        "jurisdiction": "clatsop",
+        "surgical_masks": 247,
+        "n95_masks": 12,
+        "gowns": 20,
+        "face_shields": 22,
+        "gloves": 9
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586199600000,
+        "jurisdiction": "columbia",
+        "surgical_masks": 306,
+        "n95_masks": 15,
+        "gowns": 25,
+        "face_shields": 27,
+        "gloves": 11
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586199600000,
+        "jurisdiction": "coos",
+        "surgical_masks": 990,
+        "n95_masks": 49,
+        "gowns": 45,
+        "face_shields": 87,
+        "gloves": 37
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586199600000,
+        "jurisdiction": "crook",
+        "surgical_masks": 398,
+        "n95_masks": 20,
+        "gowns": 18,
+        "face_shields": 35,
+        "gloves": 14
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586199600000,
+        "jurisdiction": "curry",
+        "surgical_masks": 360,
+        "n95_masks": 18,
+        "gowns": 16,
+        "face_shields": 32,
+        "gloves": 13
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586199600000,
+        "jurisdiction": "deschutes",
+        "surgical_masks": 4252,
+        "n95_masks": 209,
+        "gowns": 191,
+        "face_shields": 375,
+        "gloves": 156
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586199600000,
+        "jurisdiction": "douglas",
+        "surgical_masks": 2104,
+        "n95_masks": 103,
+        "gowns": 94,
+        "face_shields": 185,
+        "gloves": 77
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586199600000,
+        "jurisdiction": "gilliam",
+        "surgical_masks": 31,
+        "n95_masks": 2,
+        "gowns": 2,
+        "face_shields": 3,
+        "gloves": 1
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586199600000,
+        "jurisdiction": "grant",
+        "surgical_masks": 147,
+        "n95_masks": 7,
+        "gowns": 7,
+        "face_shields": 13,
+        "gloves": 5
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586199600000,
+        "jurisdiction": "harney",
+        "surgical_masks": 115,
+        "n95_masks": 6,
+        "gowns": 5,
+        "face_shields": 10,
+        "gloves": 4
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586199600000,
+        "jurisdiction": "hood_river",
+        "surgical_masks": 462,
+        "n95_masks": 23,
+        "gowns": 21,
+        "face_shields": 41,
+        "gloves": 17
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586199600000,
+        "jurisdiction": "jackson",
+        "surgical_masks": 4505,
+        "n95_masks": 221,
+        "gowns": 203,
+        "face_shields": 397,
+        "gloves": 165
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586199600000,
+        "jurisdiction": "jefferson",
+        "surgical_masks": 373,
+        "n95_masks": 18,
+        "gowns": 16,
+        "face_shields": 33,
+        "gloves": 13
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586199600000,
+        "jurisdiction": "josephine",
+        "surgical_masks": 1768,
+        "n95_masks": 87,
+        "gowns": 80,
+        "face_shields": 156,
+        "gloves": 65
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586199600000,
+        "jurisdiction": "klamath",
+        "surgical_masks": 1509,
+        "n95_masks": 74,
+        "gowns": 67,
+        "face_shields": 133,
+        "gloves": 55
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586199600000,
+        "jurisdiction": "lake",
+        "surgical_masks": 126,
+        "n95_masks": 6,
+        "gowns": 5,
+        "face_shields": 11,
+        "gloves": 5
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586199600000,
+        "jurisdiction": "lane",
+        "surgical_masks": 6686,
+        "n95_masks": 329,
+        "gowns": 301,
+        "face_shields": 589,
+        "gloves": 244
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586199600000,
+        "jurisdiction": "lincoln",
+        "surgical_masks": 881,
+        "n95_masks": 43,
+        "gowns": 40,
+        "face_shields": 78,
+        "gloves": 33
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586199600000,
+        "jurisdiction": "linn",
+        "surgical_masks": 3275,
+        "n95_masks": 161,
+        "gowns": 147,
+        "face_shields": 289,
+        "gloves": 120
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586199600000,
+        "jurisdiction": "malheur",
+        "surgical_masks": 564,
+        "n95_masks": 28,
+        "gowns": 26,
+        "face_shields": 50,
+        "gloves": 20
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586199600000,
+        "jurisdiction": "marion",
+        "surgical_masks": 11381,
+        "n95_masks": 560,
+        "gowns": 512,
+        "face_shields": 1003,
+        "gloves": 417
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586199600000,
+        "jurisdiction": "morrow",
+        "surgical_masks": 262,
+        "n95_masks": 13,
+        "gowns": 12,
+        "face_shields": 23,
+        "gloves": 9
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586199600000,
+        "jurisdiction": "multnomah",
+        "surgical_masks": 6480,
+        "n95_masks": 319,
+        "gowns": 516,
+        "face_shields": 571,
+        "gloves": 237
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586199600000,
+        "jurisdiction": "polk",
+        "surgical_masks": 1993,
+        "n95_masks": 98,
+        "gowns": 89,
+        "face_shields": 176,
+        "gloves": 73
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586199600000,
+        "jurisdiction": "sherman",
+        "surgical_masks": 28,
+        "n95_masks": 1,
+        "gowns": 1,
+        "face_shields": 2,
+        "gloves": 1
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586199600000,
+        "jurisdiction": "tillamook",
+        "surgical_masks": 509,
+        "n95_masks": 25,
+        "gowns": 24,
+        "face_shields": 45,
+        "gloves": 18
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586199600000,
+        "jurisdiction": "umatilla",
+        "surgical_masks": 1428,
+        "n95_masks": 70,
+        "gowns": 65,
+        "face_shields": 126,
+        "gloves": 52
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586199600000,
+        "jurisdiction": "union",
+        "surgical_masks": 515,
+        "n95_masks": 25,
+        "gowns": 24,
+        "face_shields": 45,
+        "gloves": 18
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586199600000,
+        "jurisdiction": "wallowa",
+        "surgical_masks": 143,
+        "n95_masks": 7,
+        "gowns": 6,
+        "face_shields": 13,
+        "gloves": 5
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586199600000,
+        "jurisdiction": "wasco",
+        "surgical_masks": 647,
+        "n95_masks": 32,
+        "gowns": 29,
+        "face_shields": 57,
+        "gloves": 23
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586199600000,
+        "jurisdiction": "washington",
+        "surgical_masks": 5795,
+        "n95_masks": 285,
+        "gowns": 462,
+        "face_shields": 511,
+        "gloves": 212
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586199600000,
+        "jurisdiction": "wheeler",
+        "surgical_masks": 23,
+        "n95_masks": 1,
+        "gowns": 0,
+        "face_shields": 2,
+        "gloves": 1
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586199600000,
+        "jurisdiction": "yamhill",
+        "surgical_masks": 805,
+        "n95_masks": 40,
+        "gowns": 64,
+        "face_shields": 71,
+        "gloves": 30
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586286000000,
+        "jurisdiction": "baker",
+        "surgical_masks": 84,
+        "n95_masks": 4,
+        "gowns": 0,
+        "face_shields": 7,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586286000000,
+        "jurisdiction": "benton",
+        "surgical_masks": 655,
+        "n95_masks": 30,
+        "gowns": 0,
+        "face_shields": 52,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586286000000,
+        "jurisdiction": "clackamas",
+        "surgical_masks": 966,
+        "n95_masks": 45,
+        "gowns": 0,
+        "face_shields": 77,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586286000000,
+        "jurisdiction": "clatsop",
+        "surgical_masks": 77,
+        "n95_masks": 4,
+        "gowns": 0,
+        "face_shields": 6,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586286000000,
+        "jurisdiction": "columbia",
+        "surgical_masks": 111,
+        "n95_masks": 5,
+        "gowns": 0,
+        "face_shields": 9,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586286000000,
+        "jurisdiction": "coos",
+        "surgical_masks": 315,
+        "n95_masks": 15,
+        "gowns": 0,
+        "face_shields": 25,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586286000000,
+        "jurisdiction": "crook",
+        "surgical_masks": 125,
+        "n95_masks": 6,
+        "gowns": 0,
+        "face_shields": 10,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586286000000,
+        "jurisdiction": "curry",
+        "surgical_masks": 132,
+        "n95_masks": 6,
+        "gowns": 0,
+        "face_shields": 10,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586286000000,
+        "jurisdiction": "deschutes",
+        "surgical_masks": 1314,
+        "n95_masks": 61,
+        "gowns": 0,
+        "face_shields": 104,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586286000000,
+        "jurisdiction": "douglas",
+        "surgical_masks": 664,
+        "n95_masks": 31,
+        "gowns": 0,
+        "face_shields": 53,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586286000000,
+        "jurisdiction": "gilliam",
+        "surgical_masks": 10,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 1,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586286000000,
+        "jurisdiction": "grant",
+        "surgical_masks": 45,
+        "n95_masks": 2,
+        "gowns": 0,
+        "face_shields": 4,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586286000000,
+        "jurisdiction": "harney",
+        "surgical_masks": 37,
+        "n95_masks": 2,
+        "gowns": 0,
+        "face_shields": 3,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586286000000,
+        "jurisdiction": "hood_river",
+        "surgical_masks": 144,
+        "n95_masks": 7,
+        "gowns": 0,
+        "face_shields": 11,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586286000000,
+        "jurisdiction": "jackson",
+        "surgical_masks": 1445,
+        "n95_masks": 67,
+        "gowns": 1,
+        "face_shields": 115,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586286000000,
+        "jurisdiction": "jefferson",
+        "surgical_masks": 119,
+        "n95_masks": 5,
+        "gowns": 0,
+        "face_shields": 9,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586286000000,
+        "jurisdiction": "josephine",
+        "surgical_masks": 573,
+        "n95_masks": 27,
+        "gowns": 0,
+        "face_shields": 45,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586286000000,
+        "jurisdiction": "klamath",
+        "surgical_masks": 498,
+        "n95_masks": 23,
+        "gowns": 0,
+        "face_shields": 40,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586286000000,
+        "jurisdiction": "lake",
+        "surgical_masks": 40,
+        "n95_masks": 2,
+        "gowns": 0,
+        "face_shields": 3,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586286000000,
+        "jurisdiction": "lane",
+        "surgical_masks": 2140,
+        "n95_masks": 99,
+        "gowns": 1,
+        "face_shields": 170,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586286000000,
+        "jurisdiction": "lincoln",
+        "surgical_masks": 275,
+        "n95_masks": 13,
+        "gowns": 0,
+        "face_shields": 22,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586286000000,
+        "jurisdiction": "linn",
+        "surgical_masks": 1019,
+        "n95_masks": 47,
+        "gowns": 0,
+        "face_shields": 81,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586286000000,
+        "jurisdiction": "malheur",
+        "surgical_masks": 177,
+        "n95_masks": 8,
+        "gowns": 0,
+        "face_shields": 14,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586286000000,
+        "jurisdiction": "marion",
+        "surgical_masks": 3580,
+        "n95_masks": 166,
+        "gowns": 1,
+        "face_shields": 284,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586286000000,
+        "jurisdiction": "morrow",
+        "surgical_masks": 81,
+        "n95_masks": 4,
+        "gowns": 0,
+        "face_shields": 6,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586286000000,
+        "jurisdiction": "multnomah",
+        "surgical_masks": 2077,
+        "n95_masks": 96,
+        "gowns": 1,
+        "face_shields": 165,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586286000000,
+        "jurisdiction": "polk",
+        "surgical_masks": 643,
+        "n95_masks": 30,
+        "gowns": 0,
+        "face_shields": 51,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586286000000,
+        "jurisdiction": "sherman",
+        "surgical_masks": 18,
+        "n95_masks": 1,
+        "gowns": 0,
+        "face_shields": 1,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586286000000,
+        "jurisdiction": "tillamook",
+        "surgical_masks": 158,
+        "n95_masks": 7,
+        "gowns": 0,
+        "face_shields": 13,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586286000000,
+        "jurisdiction": "umatilla",
+        "surgical_masks": 474,
+        "n95_masks": 22,
+        "gowns": 0,
+        "face_shields": 38,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586286000000,
+        "jurisdiction": "union",
+        "surgical_masks": 160,
+        "n95_masks": 7,
+        "gowns": 0,
+        "face_shields": 13,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586286000000,
+        "jurisdiction": "wallowa",
+        "surgical_masks": 44,
+        "n95_masks": 2,
+        "gowns": 0,
+        "face_shields": 4,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586286000000,
+        "jurisdiction": "wasco",
+        "surgical_masks": 197,
+        "n95_masks": 9,
+        "gowns": 0,
+        "face_shields": 16,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586286000000,
+        "jurisdiction": "washington",
+        "surgical_masks": 1815,
+        "n95_masks": 84,
+        "gowns": 1,
+        "face_shields": 144,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586286000000,
+        "jurisdiction": "wheeler",
+        "surgical_masks": 7,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 1,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586286000000,
+        "jurisdiction": "yamhill",
+        "surgical_masks": 253,
+        "n95_masks": 12,
+        "gowns": 0,
+        "face_shields": 20,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586372400000,
+        "jurisdiction": "baker",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586372400000,
+        "jurisdiction": "benton",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586372400000,
+        "jurisdiction": "clackamas",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586372400000,
+        "jurisdiction": "clatsop",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586372400000,
+        "jurisdiction": "columbia",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586372400000,
+        "jurisdiction": "coos",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586372400000,
+        "jurisdiction": "crook",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586372400000,
+        "jurisdiction": "curry",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586372400000,
+        "jurisdiction": "deschutes",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586372400000,
+        "jurisdiction": "douglas",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586372400000,
+        "jurisdiction": "gilliam",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586372400000,
+        "jurisdiction": "grant",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586372400000,
+        "jurisdiction": "harney",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586372400000,
+        "jurisdiction": "hood_river",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586372400000,
+        "jurisdiction": "jackson",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586372400000,
+        "jurisdiction": "jefferson",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586372400000,
+        "jurisdiction": "josephine",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586372400000,
+        "jurisdiction": "klamath",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586372400000,
+        "jurisdiction": "lake",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586372400000,
+        "jurisdiction": "lane",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586372400000,
+        "jurisdiction": "lincoln",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586372400000,
+        "jurisdiction": "linn",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586372400000,
+        "jurisdiction": "malheur",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586372400000,
+        "jurisdiction": "marion",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586372400000,
+        "jurisdiction": "morrow",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586372400000,
+        "jurisdiction": "multnomah",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586372400000,
+        "jurisdiction": "polk",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586372400000,
+        "jurisdiction": "sherman",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586372400000,
+        "jurisdiction": "tillamook",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586372400000,
+        "jurisdiction": "umatilla",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586372400000,
+        "jurisdiction": "union",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586372400000,
+        "jurisdiction": "wallowa",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586372400000,
+        "jurisdiction": "wasco",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586372400000,
+        "jurisdiction": "washington",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586372400000,
+        "jurisdiction": "wheeler",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586372400000,
+        "jurisdiction": "yamhill",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586458800000,
+        "jurisdiction": "baker",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586458800000,
+        "jurisdiction": "benton",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586458800000,
+        "jurisdiction": "clackamas",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586458800000,
+        "jurisdiction": "clatsop",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586458800000,
+        "jurisdiction": "columbia",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586458800000,
+        "jurisdiction": "coos",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586458800000,
+        "jurisdiction": "crook",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586458800000,
+        "jurisdiction": "curry",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586458800000,
+        "jurisdiction": "deschutes",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586458800000,
+        "jurisdiction": "douglas",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586458800000,
+        "jurisdiction": "gilliam",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586458800000,
+        "jurisdiction": "grant",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586458800000,
+        "jurisdiction": "harney",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586458800000,
+        "jurisdiction": "hood_river",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586458800000,
+        "jurisdiction": "jackson",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586458800000,
+        "jurisdiction": "jefferson",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586458800000,
+        "jurisdiction": "josephine",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586458800000,
+        "jurisdiction": "klamath",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586458800000,
+        "jurisdiction": "lake",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586458800000,
+        "jurisdiction": "lane",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586458800000,
+        "jurisdiction": "lincoln",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586458800000,
+        "jurisdiction": "linn",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586458800000,
+        "jurisdiction": "malheur",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586458800000,
+        "jurisdiction": "marion",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586458800000,
+        "jurisdiction": "morrow",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586458800000,
+        "jurisdiction": "multnomah",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586458800000,
+        "jurisdiction": "polk",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586458800000,
+        "jurisdiction": "sherman",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586458800000,
+        "jurisdiction": "tillamook",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586458800000,
+        "jurisdiction": "umatilla",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586458800000,
+        "jurisdiction": "union",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586458800000,
+        "jurisdiction": "wallowa",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586458800000,
+        "jurisdiction": "wasco",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586458800000,
+        "jurisdiction": "washington",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586458800000,
+        "jurisdiction": "wheeler",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586458800000,
+        "jurisdiction": "yamhill",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586545200000,
+        "jurisdiction": "baker",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586545200000,
+        "jurisdiction": "benton",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586545200000,
+        "jurisdiction": "clackamas",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586545200000,
+        "jurisdiction": "clatsop",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586545200000,
+        "jurisdiction": "columbia",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586545200000,
+        "jurisdiction": "coos",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586545200000,
+        "jurisdiction": "crook",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586545200000,
+        "jurisdiction": "curry",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586545200000,
+        "jurisdiction": "deschutes",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586545200000,
+        "jurisdiction": "douglas",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586545200000,
+        "jurisdiction": "gilliam",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586545200000,
+        "jurisdiction": "grant",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586545200000,
+        "jurisdiction": "harney",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586545200000,
+        "jurisdiction": "hood_river",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586545200000,
+        "jurisdiction": "jackson",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586545200000,
+        "jurisdiction": "jefferson",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586545200000,
+        "jurisdiction": "josephine",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586545200000,
+        "jurisdiction": "klamath",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586545200000,
+        "jurisdiction": "lake",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586545200000,
+        "jurisdiction": "lane",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586545200000,
+        "jurisdiction": "lincoln",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586545200000,
+        "jurisdiction": "linn",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586545200000,
+        "jurisdiction": "malheur",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586545200000,
+        "jurisdiction": "marion",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586545200000,
+        "jurisdiction": "morrow",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586545200000,
+        "jurisdiction": "multnomah",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586545200000,
+        "jurisdiction": "polk",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586545200000,
+        "jurisdiction": "sherman",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586545200000,
+        "jurisdiction": "tillamook",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586545200000,
+        "jurisdiction": "umatilla",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586545200000,
+        "jurisdiction": "union",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586545200000,
+        "jurisdiction": "wallowa",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586545200000,
+        "jurisdiction": "wasco",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586545200000,
+        "jurisdiction": "washington",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586545200000,
+        "jurisdiction": "wheeler",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586545200000,
+        "jurisdiction": "yamhill",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586631600000,
+        "jurisdiction": "baker",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586631600000,
+        "jurisdiction": "benton",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586631600000,
+        "jurisdiction": "clackamas",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586631600000,
+        "jurisdiction": "clatsop",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586631600000,
+        "jurisdiction": "columbia",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586631600000,
+        "jurisdiction": "coos",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586631600000,
+        "jurisdiction": "crook",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586631600000,
+        "jurisdiction": "curry",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586631600000,
+        "jurisdiction": "deschutes",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586631600000,
+        "jurisdiction": "douglas",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586631600000,
+        "jurisdiction": "gilliam",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586631600000,
+        "jurisdiction": "grant",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586631600000,
+        "jurisdiction": "harney",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586631600000,
+        "jurisdiction": "hood_river",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586631600000,
+        "jurisdiction": "jackson",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586631600000,
+        "jurisdiction": "jefferson",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586631600000,
+        "jurisdiction": "josephine",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586631600000,
+        "jurisdiction": "klamath",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586631600000,
+        "jurisdiction": "lake",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586631600000,
+        "jurisdiction": "lane",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586631600000,
+        "jurisdiction": "lincoln",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586631600000,
+        "jurisdiction": "linn",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586631600000,
+        "jurisdiction": "malheur",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586631600000,
+        "jurisdiction": "marion",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586631600000,
+        "jurisdiction": "morrow",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586631600000,
+        "jurisdiction": "multnomah",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586631600000,
+        "jurisdiction": "polk",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586631600000,
+        "jurisdiction": "sherman",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586631600000,
+        "jurisdiction": "tillamook",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586631600000,
+        "jurisdiction": "umatilla",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586631600000,
+        "jurisdiction": "union",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586631600000,
+        "jurisdiction": "wallowa",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586631600000,
+        "jurisdiction": "wasco",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586631600000,
+        "jurisdiction": "washington",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586631600000,
+        "jurisdiction": "wheeler",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586631600000,
+        "jurisdiction": "yamhill",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586718000000,
+        "jurisdiction": "baker",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586718000000,
+        "jurisdiction": "benton",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586718000000,
+        "jurisdiction": "clackamas",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586718000000,
+        "jurisdiction": "clatsop",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586718000000,
+        "jurisdiction": "columbia",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586718000000,
+        "jurisdiction": "coos",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586718000000,
+        "jurisdiction": "crook",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586718000000,
+        "jurisdiction": "curry",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586718000000,
+        "jurisdiction": "deschutes",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586718000000,
+        "jurisdiction": "douglas",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586718000000,
+        "jurisdiction": "gilliam",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586718000000,
+        "jurisdiction": "grant",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586718000000,
+        "jurisdiction": "harney",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586718000000,
+        "jurisdiction": "hood_river",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586718000000,
+        "jurisdiction": "jackson",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586718000000,
+        "jurisdiction": "jefferson",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586718000000,
+        "jurisdiction": "josephine",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586718000000,
+        "jurisdiction": "klamath",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586718000000,
+        "jurisdiction": "lake",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586718000000,
+        "jurisdiction": "lane",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586718000000,
+        "jurisdiction": "lincoln",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586718000000,
+        "jurisdiction": "linn",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586718000000,
+        "jurisdiction": "malheur",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586718000000,
+        "jurisdiction": "marion",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586718000000,
+        "jurisdiction": "morrow",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586718000000,
+        "jurisdiction": "multnomah",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586718000000,
+        "jurisdiction": "polk",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586718000000,
+        "jurisdiction": "sherman",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586718000000,
+        "jurisdiction": "tillamook",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586718000000,
+        "jurisdiction": "umatilla",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586718000000,
+        "jurisdiction": "union",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586718000000,
+        "jurisdiction": "wallowa",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586718000000,
+        "jurisdiction": "wasco",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586718000000,
+        "jurisdiction": "washington",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586718000000,
+        "jurisdiction": "wheeler",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586718000000,
+        "jurisdiction": "yamhill",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586804400000,
+        "jurisdiction": "baker",
+        "surgical_masks": 50,
+        "n95_masks": 267,
+        "gowns": 4,
+        "face_shields": 201,
+        "gloves": 677
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586804400000,
+        "jurisdiction": "benton",
+        "surgical_masks": 100,
+        "n95_masks": 2060,
+        "gowns": 41,
+        "face_shields": 1007,
+        "gloves": 1874
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586804400000,
+        "jurisdiction": "clackamas",
+        "surgical_masks": 150,
+        "n95_masks": 3130,
+        "gowns": 63,
+        "face_shields": 1612,
+        "gloves": 2499
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586804400000,
+        "jurisdiction": "clatsop",
+        "surgical_masks": 50,
+        "n95_masks": 258,
+        "gowns": 5,
+        "face_shields": 127,
+        "gloves": 104
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586804400000,
+        "jurisdiction": "columbia",
+        "surgical_masks": 50,
+        "n95_masks": 357,
+        "gowns": 8,
+        "face_shields": 177,
+        "gloves": 104
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586804400000,
+        "jurisdiction": "coos",
+        "surgical_masks": 50,
+        "n95_masks": 1010,
+        "gowns": 5,
+        "face_shields": 504,
+        "gloves": 312
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586804400000,
+        "jurisdiction": "crook",
+        "surgical_masks": 50,
+        "n95_masks": 396,
+        "gowns": 9,
+        "face_shields": 202,
+        "gloves": 374
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586804400000,
+        "jurisdiction": "curry",
+        "surgical_masks": 50,
+        "n95_masks": 436,
+        "gowns": 11,
+        "face_shields": 201,
+        "gloves": 416
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586804400000,
+        "jurisdiction": "deschutes",
+        "surgical_masks": 200,
+        "n95_masks": 4220,
+        "gowns": 87,
+        "face_shields": 2166,
+        "gloves": 3840
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586804400000,
+        "jurisdiction": "douglas",
+        "surgical_masks": 100,
+        "n95_masks": 2041,
+        "gowns": 42,
+        "face_shields": 1007,
+        "gloves": 937
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586804400000,
+        "jurisdiction": "gilliam",
+        "surgical_masks": 50,
+        "n95_masks": 40,
+        "gowns": 0,
+        "face_shields": 25,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586804400000,
+        "jurisdiction": "grant",
+        "surgical_masks": 50,
+        "n95_masks": 139,
+        "gowns": 1,
+        "face_shields": 101,
+        "gloves": 625
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586804400000,
+        "jurisdiction": "harney",
+        "surgical_masks": 50,
+        "n95_masks": 119,
+        "gowns": 1,
+        "face_shields": 76,
+        "gloves": 423
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586804400000,
+        "jurisdiction": "hood_river",
+        "surgical_masks": 50,
+        "n95_masks": 495,
+        "gowns": 11,
+        "face_shields": 252,
+        "gloves": 632
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586804400000,
+        "jurisdiction": "jackson",
+        "surgical_masks": 200,
+        "n95_masks": 4457,
+        "gowns": 90,
+        "face_shields": 2317,
+        "gloves": 2915
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586804400000,
+        "jurisdiction": "jefferson",
+        "surgical_masks": 50,
+        "n95_masks": 376,
+        "gowns": 9,
+        "face_shields": 201,
+        "gloves": 524
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586804400000,
+        "jurisdiction": "josephine",
+        "surgical_masks": 100,
+        "n95_masks": 1743,
+        "gowns": 36,
+        "face_shields": 907,
+        "gloves": 1770
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586804400000,
+        "jurisdiction": "klamath",
+        "surgical_masks": 100,
+        "n95_masks": 1625,
+        "gowns": 33,
+        "face_shields": 831,
+        "gloves": 625
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586804400000,
+        "jurisdiction": "lake",
+        "surgical_masks": 50,
+        "n95_masks": 129,
+        "gowns": 1,
+        "face_shields": 101,
+        "gloves": 521
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586804400000,
+        "jurisdiction": "lane",
+        "surgical_masks": 350,
+        "n95_masks": 6756,
+        "gowns": 139,
+        "face_shields": 3526,
+        "gloves": 5935
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586804400000,
+        "jurisdiction": "lincoln",
+        "surgical_masks": 50,
+        "n95_masks": 951,
+        "gowns": 17,
+        "face_shields": 403,
+        "gloves": 729
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586804400000,
+        "jurisdiction": "linn",
+        "surgical_masks": 150,
+        "n95_masks": 2972,
+        "gowns": 68,
+        "face_shields": 1587,
+        "gloves": 2499
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586804400000,
+        "jurisdiction": "malheur",
+        "surgical_masks": 50,
+        "n95_masks": 575,
+        "gowns": 12,
+        "face_shields": 302,
+        "gloves": 833
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586804400000,
+        "jurisdiction": "marion",
+        "surgical_masks": 550,
+        "n95_masks": 11292,
+        "gowns": 232,
+        "face_shields": 5793,
+        "gloves": 9371
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586804400000,
+        "jurisdiction": "morrow",
+        "surgical_masks": 50,
+        "n95_masks": 317,
+        "gowns": 5,
+        "face_shields": 201,
+        "gloves": 625
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586804400000,
+        "jurisdiction": "multnomah",
+        "surgical_masks": 350,
+        "n95_masks": 6835,
+        "gowns": 140,
+        "face_shields": 3501,
+        "gloves": 5935
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586804400000,
+        "jurisdiction": "polk",
+        "surgical_masks": 100,
+        "n95_masks": 1981,
+        "gowns": 41,
+        "face_shields": 1007,
+        "gloves": 1874
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586804400000,
+        "jurisdiction": "sherman",
+        "surgical_masks": 50,
+        "n95_masks": 59,
+        "gowns": 1,
+        "face_shields": 25,
+        "gloves": 418
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586804400000,
+        "jurisdiction": "tillamook",
+        "surgical_masks": 50,
+        "n95_masks": 515,
+        "gowns": 11,
+        "face_shields": 277,
+        "gloves": 632
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586804400000,
+        "jurisdiction": "umatilla",
+        "surgical_masks": 100,
+        "n95_masks": 1605,
+        "gowns": 35,
+        "face_shields": 907,
+        "gloves": 2082
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586804400000,
+        "jurisdiction": "union",
+        "surgical_masks": 50,
+        "n95_masks": 515,
+        "gowns": 11,
+        "face_shields": 302,
+        "gloves": 833
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586804400000,
+        "jurisdiction": "wallowa",
+        "surgical_masks": 50,
+        "n95_masks": 158,
+        "gowns": 1,
+        "face_shields": 102,
+        "gloves": 625
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586804400000,
+        "jurisdiction": "wasco",
+        "surgical_masks": 50,
+        "n95_masks": 634,
+        "gowns": 14,
+        "face_shields": 327,
+        "gloves": 625
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586804400000,
+        "jurisdiction": "washington",
+        "surgical_masks": 300,
+        "n95_masks": 5706,
+        "gowns": 116,
+        "face_shields": 2922,
+        "gloves": 4789
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586804400000,
+        "jurisdiction": "wheeler",
+        "surgical_masks": 50,
+        "n95_masks": 30,
+        "gowns": 0,
+        "face_shields": 25,
+        "gloves": 416
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586804400000,
+        "jurisdiction": "yamhill",
+        "surgical_masks": 50,
+        "n95_masks": 790,
+        "gowns": 15,
+        "face_shields": 428,
+        "gloves": 729
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586890800000,
+        "jurisdiction": "baker",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586890800000,
+        "jurisdiction": "benton",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586890800000,
+        "jurisdiction": "clackamas",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586890800000,
+        "jurisdiction": "clatsop",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586890800000,
+        "jurisdiction": "columbia",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586890800000,
+        "jurisdiction": "coos",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586890800000,
+        "jurisdiction": "crook",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586890800000,
+        "jurisdiction": "curry",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586890800000,
+        "jurisdiction": "deschutes",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586890800000,
+        "jurisdiction": "douglas",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586890800000,
+        "jurisdiction": "gilliam",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586890800000,
+        "jurisdiction": "grant",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586890800000,
+        "jurisdiction": "harney",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586890800000,
+        "jurisdiction": "hood_river",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586890800000,
+        "jurisdiction": "jackson",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586890800000,
+        "jurisdiction": "jefferson",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586890800000,
+        "jurisdiction": "josephine",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586890800000,
+        "jurisdiction": "klamath",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586890800000,
+        "jurisdiction": "lake",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586890800000,
+        "jurisdiction": "lane",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586890800000,
+        "jurisdiction": "lincoln",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586890800000,
+        "jurisdiction": "linn",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586890800000,
+        "jurisdiction": "malheur",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586890800000,
+        "jurisdiction": "marion",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586890800000,
+        "jurisdiction": "morrow",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586890800000,
+        "jurisdiction": "multnomah",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586890800000,
+        "jurisdiction": "polk",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586890800000,
+        "jurisdiction": "sherman",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586890800000,
+        "jurisdiction": "tillamook",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586890800000,
+        "jurisdiction": "umatilla",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586890800000,
+        "jurisdiction": "union",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586890800000,
+        "jurisdiction": "wallowa",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586890800000,
+        "jurisdiction": "wasco",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586890800000,
+        "jurisdiction": "washington",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586890800000,
+        "jurisdiction": "wheeler",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586890800000,
+        "jurisdiction": "yamhill",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586977200000,
+        "jurisdiction": "baker",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586977200000,
+        "jurisdiction": "benton",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586977200000,
+        "jurisdiction": "clackamas",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586977200000,
+        "jurisdiction": "clatsop",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586977200000,
+        "jurisdiction": "columbia",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586977200000,
+        "jurisdiction": "coos",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586977200000,
+        "jurisdiction": "crook",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586977200000,
+        "jurisdiction": "curry",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586977200000,
+        "jurisdiction": "deschutes",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586977200000,
+        "jurisdiction": "douglas",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586977200000,
+        "jurisdiction": "gilliam",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586977200000,
+        "jurisdiction": "grant",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586977200000,
+        "jurisdiction": "harney",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586977200000,
+        "jurisdiction": "hood_river",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586977200000,
+        "jurisdiction": "jackson",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586977200000,
+        "jurisdiction": "jefferson",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586977200000,
+        "jurisdiction": "josephine",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586977200000,
+        "jurisdiction": "klamath",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586977200000,
+        "jurisdiction": "lake",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586977200000,
+        "jurisdiction": "lane",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586977200000,
+        "jurisdiction": "lincoln",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586977200000,
+        "jurisdiction": "linn",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586977200000,
+        "jurisdiction": "malheur",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586977200000,
+        "jurisdiction": "marion",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586977200000,
+        "jurisdiction": "morrow",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586977200000,
+        "jurisdiction": "multnomah",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586977200000,
+        "jurisdiction": "polk",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586977200000,
+        "jurisdiction": "sherman",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586977200000,
+        "jurisdiction": "tillamook",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586977200000,
+        "jurisdiction": "umatilla",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586977200000,
+        "jurisdiction": "union",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586977200000,
+        "jurisdiction": "wallowa",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586977200000,
+        "jurisdiction": "wasco",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586977200000,
+        "jurisdiction": "washington",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586977200000,
+        "jurisdiction": "wheeler",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1586977200000,
+        "jurisdiction": "yamhill",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1587063600000,
+        "jurisdiction": "baker",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1587063600000,
+        "jurisdiction": "benton",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1587063600000,
+        "jurisdiction": "clackamas",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1587063600000,
+        "jurisdiction": "clatsop",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1587063600000,
+        "jurisdiction": "columbia",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1587063600000,
+        "jurisdiction": "coos",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1587063600000,
+        "jurisdiction": "crook",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1587063600000,
+        "jurisdiction": "curry",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1587063600000,
+        "jurisdiction": "deschutes",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1587063600000,
+        "jurisdiction": "douglas",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1587063600000,
+        "jurisdiction": "gilliam",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1587063600000,
+        "jurisdiction": "grant",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1587063600000,
+        "jurisdiction": "harney",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1587063600000,
+        "jurisdiction": "hood_river",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1587063600000,
+        "jurisdiction": "jackson",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1587063600000,
+        "jurisdiction": "jefferson",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1587063600000,
+        "jurisdiction": "josephine",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1587063600000,
+        "jurisdiction": "klamath",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1587063600000,
+        "jurisdiction": "lake",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1587063600000,
+        "jurisdiction": "lane",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1587063600000,
+        "jurisdiction": "lincoln",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1587063600000,
+        "jurisdiction": "linn",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1587063600000,
+        "jurisdiction": "malheur",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1587063600000,
+        "jurisdiction": "marion",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1587063600000,
+        "jurisdiction": "morrow",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1587063600000,
+        "jurisdiction": "multnomah",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1587063600000,
+        "jurisdiction": "polk",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1587063600000,
+        "jurisdiction": "sherman",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1587063600000,
+        "jurisdiction": "tillamook",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1587063600000,
+        "jurisdiction": "umatilla",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1587063600000,
+        "jurisdiction": "union",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1587063600000,
+        "jurisdiction": "wallowa",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1587063600000,
+        "jurisdiction": "wasco",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1587063600000,
+        "jurisdiction": "washington",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1587063600000,
+        "jurisdiction": "wheeler",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "attributes": {
+        "_date": 1587063600000,
+        "jurisdiction": "yamhill",
+        "surgical_masks": 0,
+        "n95_masks": 0,
+        "gowns": 0,
+        "face_shields": 0,
+        "gloves": 0
+      },
+      "geometry": {
+        "x": 0,
+        "y": 0
+      }
+    }
+  ]
+}
