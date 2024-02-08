@@ -22,7 +22,7 @@
     "react-router-cache-route": "^1.8.4",
     "react-router-dom": "^5.1.2",
     "react-scripts": "5.0.1",
-    "serve": "^11.3.0"
+    "serve": "^14.2.1"
   },
   "scripts": {
     "dev": "react-scripts start",
